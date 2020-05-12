@@ -28,7 +28,7 @@ new_list = [i for i in range(20, 241) if i % 20 == 0 or i % 21 == 0]
 print(new_list)
 
 # task 4 --------------------------------------------------------------------
-my_list = [2, 2, 2, 7, 23, 1, 44, 44, 3, 2, 10, 7, 4,11]
+my_list = [2, 2, 2, 7, 23, 1, 44, 44, 3, 2, 10, 7, 4, 11]
 new_list = [i for i in my_list if my_list.count(i) == 1]
 print(new_list)
 
