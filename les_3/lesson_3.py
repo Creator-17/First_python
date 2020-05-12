@@ -50,9 +50,10 @@ print(my_fun(int(input("input your number -")), int(input("input your negative n
 #p2
 
 def my_fun(x,y):
-    for i in range(abs(y - 1)):
-        x *= i
-    return 1 / x # почему x = 0??
+    res = x
+    for i in range(abs(y) - 1)):
+        res *= x
+    return 1 / res # почему x = 0??
 
 print(my_fun(x=(int(input("input your number -"))), y=(int(input("input your negative number -")))))
 
